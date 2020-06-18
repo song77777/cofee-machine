@@ -63,7 +63,19 @@
               </div>
             </div>
             <div class="col-6"> <!--Баланс, АТМ и сдача-->
+              <!--Шаблон из Bootstrap-->
+              <div class="input-group mb-3">
+                <input type="text" class="form-control balances" placeholder="Баланс" >
+                <div class="input-group-append">
+                  <span class="input-group-text">&#8381; </span>
+                </div>
+              </div>
               
+              <div class="atm">
+                <img src="img/bill_acc.png" alt="Аппарат АТМ">
+              </div>
+              <button class="btn btn-primary btn-block mt-3 change-btn">Сдача</button>
+              <div class="change-box mt-3"></div>
             </div>
             
             
